@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    background-color: black;
+    height: auto;
+    width: 280px;
+    margin-left: 200px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.cardImg {
+    width: -100px;
+    height: 10px;
+    background-color: aqua;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    align-self: center;
+}
+.title{
+    justify-content: center;
+    text-align: center;
+    color: red;
+}
+.phonenum {
+    justify-content: center;
+    text-align: center;
+}
+.email {
+    justify-content: center;
+    text-align: center;
+}
+.position {
+    justify-content: center;
+    text-align: center;
+}
+.cardImg img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.text {
+    margin-top: 50px;
+}
