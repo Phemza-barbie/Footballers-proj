@@ -39,7 +39,7 @@ const App = () => {
   ];
   return (
     <>
-     <h1>Footballers</h1>
+     <h3>My new footballers</h3>
      <div>
       {employees.map(({fname, position, image, team, age}, index) =>(
         <Players
